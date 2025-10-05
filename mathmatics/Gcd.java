@@ -10,6 +10,7 @@ public class Gcd {
         }
         return 1;
     }
+    
     public static int euclidianGCD(int a, int b){
         while (a!=b) {
             if(a > b)
